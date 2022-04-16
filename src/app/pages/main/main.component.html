@@ -1,18 +1,40 @@
 <main>
-  <div class="filme-principal">
-    <div class="container">
-      <h3 class="title">Sin City: A Dama Fatal</h3>
-      <p class="descricao">Dwight tem seu confronto final com a mulher dos seus sonhos e pesadelos, Ava. Ela consegue ler mentes e transforma-se exatamente no que os homens desejam. Repleta de mulheres fortes, anti-heróis e vilões cruéis, seus caminhos se cruzam pelas ruas e bares da cidade do pecado.</p>
-    </div>
-    <div class="botoes">
-      <button role="button" type="button"class="botao">
-        <i class="fa-solid fa-play"></i>
-        ASSISTIR AGORA
-      </button>
-      <button role="button" type="button" class="botao">
-        <i class="fa-solid fa-info-circle"></i>
-        MAIS INFORMAÇÕES
-      </button>
-    </div>
+
+  <app-principle-title></app-principle-title>
+
+
+  <div class="carrousel-filmes">
+    <owl-carousel-o [options]="customOptions" class="owl-carrousel owl-theme">
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini1.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini2.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini3.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini4.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini5.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini6.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini7.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini8.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini9.jpg">
+      </ng-template>
+      <ng-template carouselSlide class="items">
+        <img class="box-filme" src="../../../assets/img/mini10.jpg">
+      </ng-template>
+    </owl-carousel-o>
   </div>
 </main>

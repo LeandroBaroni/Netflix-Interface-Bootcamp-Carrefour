@@ -1,7 +1,11 @@
+
 :root{
   --vermelho: #E50914;
   --preta: #141414;
 }
+
+@import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'node_modules/ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
 *{
   margin: 0;
