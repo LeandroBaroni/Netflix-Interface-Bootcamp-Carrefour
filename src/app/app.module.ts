@@ -8,6 +8,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TestCarouselModule } from './pages/test-carousel/test-carousel.module';
+import { TestIntervalModule } from './pages/test-interval/test-interval.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TestCarouselModule } from './pages/test-carousel/test-carousel.module';
     AppRoutingModule,
     FontAwesomeModule,
     MainModule,
-    TestCarouselModule
+    TestCarouselModule,
+    TestIntervalModule
   ],
   providers: [],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
